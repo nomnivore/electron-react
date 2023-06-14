@@ -27,8 +27,11 @@
  */
 
 // import "./index.css";
-import "./main";
+import "./react.entry";
 
 console.log(
   '👋 This message is being logged by "renderer.js", included via webpack'
 );
+
+console.log(`process: ${window.process}`);
+console.log(`require: ${window.require}`);

@@ -24,14 +24,17 @@
     "@electron-forge/maker-squirrel": "^6.1.1",
     "@electron-forge/maker-zip": "^6.1.1",
     "@electron-forge/plugin-webpack": "^6.1.1",
+    "@types/better-sqlite3": "^7.6.4",
     "@types/react": "^18.2.7",
     "@types/react-dom": "^18.2.4",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.0.0",
     "@vercel/webpack-asset-relocator-loader": "1.7.3",
     "css-loader": "^6.0.0",
+    "drizzle-kit": "^0.19.2",
     "electron": "25.0.1",
     "eslint": "^8.0.1",
+    "eslint-import-resolver-webpack": "^0.13.2",
     "eslint-plugin-import": "^2.25.0",
     "fork-ts-checker-webpack-plugin": "^7.2.13",
     "node-loader": "^2.0.0",
@@ -41,6 +44,8 @@
     "typescript": "~4.5.4"
   },
   "dependencies": {
+    "better-sqlite3": "^8.4.0",
+    "drizzle-orm": "^0.27.0",
     "electron-squirrel-startup": "^1.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
